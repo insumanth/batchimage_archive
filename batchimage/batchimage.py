@@ -79,6 +79,9 @@ def process(input_directory, output_directory, parallel_tasks, operation, *args)
 
     start_time = time.time()
 
+    # ++ TODO : REMOVE ++#
+    operation = convert_to_greyscale
+
     file_list = read_images(input_directory)
     all_task = create_processes(file_list, input_directory, output_directory, parallel_tasks, operation)
 
@@ -89,6 +92,6 @@ def process(input_directory, output_directory, parallel_tasks, operation, *args)
         task.join()
 
     end_time = time.time()
-    time_taken = start_time - end_time
-    print("The Task Completed in " + str(time_taken) + " Seconds")
+    time_taken = end_time - start_time
+    return "The Task Completed in " + str(time_taken) + " Seconds"
 
