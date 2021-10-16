@@ -35,11 +35,11 @@ def read_images(path, file_extension = []):
 
 
 def create_processes(file_list, input_directory, output_directory, parallel_tasks, operation):
+
     process_list = []
 
     files_count = len(file_list)
     files_per_process_count = ceil(files_count/parallel_tasks)
-
     file_list_process = [file_list[i:i + files_per_process_count] for i in range(0, files_count, files_per_process_count)]
 
     for each_list in file_list_process:
@@ -52,7 +52,14 @@ def create_processes(file_list, input_directory, output_directory, parallel_task
     
 
 def convert_to_greyscale(files, input_directory, output_directory):
-    pass
+    
+    for image_file in files:
+
+        read_file_name = "{}{}".format(input_directory, image_file)
+        write_file_name = "{}{}{}".format(output_directory, 'greyscale_' , image_file)
+
+        image = cv2.imread(read_file_name, cv2.IMREAD_GRAYSCALE)
+        cv2.imwrite(write_file_name, image)
 
 def convert_to_x():
     pass

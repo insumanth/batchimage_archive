@@ -8,4 +8,4 @@ __version__ = '0.1.0'
 
 # Imports
 
-from .batchimage import image_processing
+from .batchimage import process
