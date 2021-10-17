@@ -110,3 +110,4 @@ ENV/
 
 others/
 .gitpod.yml
+run.sh

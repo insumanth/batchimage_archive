@@ -15,7 +15,6 @@ from tqdm import tqdm
 # Developer Functions
 
 
-
 def read_images(path, file_extension = []):
 
     file_names = []
@@ -25,7 +24,6 @@ def read_images(path, file_extension = []):
     else:
         extensions = tuple(file_extension)
     
-
     entries = Path(path)
 
     for entry in entries.iterdir():
@@ -50,6 +48,30 @@ def create_processes(file_list, input_directory, output_directory, parallel_task
     return process_list
 
 
+def get_operation(option):
+
+    if option == 0:
+        return convert_to_greyscale
+    elif option == 1:
+        return 
+    elif option == 2:
+        return 
+    elif option == 3:
+        return 
+    elif option == 4:
+        return 
+    elif option == 5:
+        return 
+    elif option == 6:
+        return 
+    elif option == 7:
+        return 
+    elif option == 8:
+        return 
+    elif option == 9:
+        return 
+    else:
+        return None
     
 
 def convert_to_greyscale(files, input_directory, output_directory):
@@ -65,23 +87,18 @@ def convert_to_greyscale(files, input_directory, output_directory):
 def convert_to_x():
     pass
 
-# ==========================================================================================
-#                                      Flags
-# ==========================================================================================
-
-GREY_SCALE = convert_to_greyscale
 
 
 # ==========================================================================================
 #                                      Entry Function
 # ==========================================================================================
 
-def process(input_directory, output_directory, parallel_tasks, operation, *args):
+def process(input_directory, output_directory, parallel_tasks, option, *args):
 
     start_time = time.time()
 
     # ++ TODO : REMOVE ++#
-    operation = convert_to_greyscale
+    operation = get_operation(option)
 
     file_list = read_images(input_directory)
     all_task = create_processes(file_list, input_directory, output_directory, parallel_tasks, operation)
