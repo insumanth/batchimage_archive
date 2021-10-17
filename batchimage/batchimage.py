@@ -8,6 +8,7 @@ import time
 
 from pathlib import Path
 from math import ceil
+from tqdm import tqdm
 
 
 
