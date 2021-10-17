@@ -30,6 +30,7 @@ setup(
     description="Batch Image Processing",
     install_requires=requirements,
     long_description=readme + '\n\n' + history,
+    long_description_content_type='text/markdown',
     include_package_data=True,
     keywords='batchimage',
     name='batchimage',
