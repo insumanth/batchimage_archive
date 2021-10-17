@@ -4,7 +4,9 @@
 A Python Package for Fast Parallel Processing of Images. It's Simple, easy and extremely fast since it uses, all the cores in your CPU. batchimage uses opencv-python as its main dependency and few python core modules.
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/batchimage?style=for-the-badge)
-## Python Package Index
+
+### Python Package Index
+
 [![PyPI](https://img.shields.io/pypi/v/batchimage?style=for-the-badge&color=gree&logo=pypi)](https://pypi.org/project/batchimage/)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/batchimage?label=PyPI-Downloads&style=for-the-badge)
 ![PyPI - Status](https://img.shields.io/pypi/status/batchimage?label=PyPI%20-%20Status&style=for-the-badge)
@@ -13,7 +15,7 @@ A Python Package for Fast Parallel Processing of Images. It's Simple, easy and e
 ![PyPI - Format](https://img.shields.io/pypi/format/batchimage?label=PyPI%20-%20Format&style=for-the-badge)
 
 
-## Github
+### Github
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/insumanth/batchimage?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/insumanth/batchimage?style=for-the-badge)
@@ -25,7 +27,7 @@ A Python Package for Fast Parallel Processing of Images. It's Simple, easy and e
 ------------------
 ## Python Package Index Install 
 
-```sh
+```bash
 pip install batchimage
 ```
 
