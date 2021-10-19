@@ -1,0 +1,1 @@
+GREY_SCALE_IMAGE = 0

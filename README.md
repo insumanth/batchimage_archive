@@ -10,8 +10,6 @@ A Python Package for Fast Parallel Processing of Images. It's Simple, easy and e
 [![PyPI](https://img.shields.io/pypi/v/batchimage?style=for-the-badge&color=gree&logo=pypi)](https://pypi.org/project/batchimage/)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/batchimage?label=PyPI-Downloads&style=for-the-badge)
 ![PyPI - Status](https://img.shields.io/pypi/status/batchimage?label=PyPI%20-%20Status&style=for-the-badge)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/batchimage?label=PYPI%20WHEEL&style=for-the-badge)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/batchimage?style=for-the-badge)
 ![PyPI - Format](https://img.shields.io/pypi/format/batchimage?label=PyPI%20-%20Format&style=for-the-badge)
 
 
@@ -30,6 +28,21 @@ A Python Package for Fast Parallel Processing of Images. It's Simple, easy and e
 ```bash
 pip install batchimage
 ```
+
+### Note :
+This is a pre-alpha version of the package, the api will change without any notice. Please use this package with caution.
+
+<!--
+Table
+-->
+
+### Timeline for Development
+
+| Pre-Alpha | Alpha | Beta | Release |
+|:---:|:---:|:---:|---|
+| ![Pre-Alpha](https://img.shields.io/badge/0-PRE--ALPHA-red?style=for-the-badge) | ![Alpha](https://img.shields.io/badge/1-ALPHA-orange?style=for-the-badge) | ![Beta](https://img.shields.io/badge/2-BETA-yellow?style=for-the-badge) | ![Release](https://img.shields.io/badge/3-RELEASE-green?style=for-the-badge) |
+
+
 
 -----------------
 ![Made With Python](https://forthebadge.com/images/badges/made-with-python.svg)
