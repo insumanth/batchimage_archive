@@ -93,7 +93,7 @@ def convert_to_x():
 #                                      Entry Function
 # ==========================================================================================
 
-def process(input_directory, output_directory, parallel_tasks, option, *args):
+def process(input_directory, output_directory, parallel_tasks, option, **kwargs):
 
     start_time = time.time()
 
