@@ -5,15 +5,15 @@ A Python Package for Fast Parallel Processing of Images. It's Simple, easy and e
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/batchimage?style=for-the-badge)
 
-### Python Package Index
+### Python Package Index Badges
 
 [![PyPI](https://img.shields.io/pypi/v/batchimage?style=for-the-badge&color=gree&logo=pypi)](https://pypi.org/project/batchimage/)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/batchimage?label=PyPI-Downloads&style=for-the-badge)
-![PyPI - Status](https://img.shields.io/pypi/status/batchimage?label=PyPI%20-%20Status&style=for-the-badge)
-![PyPI - Format](https://img.shields.io/pypi/format/batchimage?label=PyPI%20-%20Format&style=for-the-badge)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/batchimage?label=Downloads&style=for-the-badge)
+![PyPI - Status](https://img.shields.io/pypi/status/batchimage?label=Status&style=for-the-badge)
+![PyPI - Format](https://img.shields.io/pypi/format/batchimage?label=Format&style=for-the-badge)
 
 
-### Github
+### Github Badges
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/insumanth/batchimage?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/insumanth/batchimage?style=for-the-badge)
@@ -38,7 +38,7 @@ Table
 
 ### Timeline for Development
 
-| Pre-Alpha | Alpha | Beta | Release |
+| Present | November'21 | December'21 | January'22 |
 |:---:|:---:|:---:|---|
 | ![Pre-Alpha](https://img.shields.io/badge/0-PRE--ALPHA-red?style=for-the-badge) | ![Alpha](https://img.shields.io/badge/1-ALPHA-orange?style=for-the-badge) | ![Beta](https://img.shields.io/badge/2-BETA-yellow?style=for-the-badge) | ![Release](https://img.shields.io/badge/3-RELEASE-green?style=for-the-badge) |
 
